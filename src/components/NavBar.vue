@@ -38,7 +38,7 @@ import menu from '../assets/menu.png'
   position: absolute;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, #ff0000, #00ffff);
+  background: linear-gradient(to right, #000, #000);
   bottom: -5px;
   left: 0;
   transform: scaleX(0);
