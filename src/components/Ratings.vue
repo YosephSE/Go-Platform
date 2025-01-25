@@ -1,7 +1,7 @@
 <script setup>
 import google from '../assets/google.png'
 import ph from '../assets/ph.png'
-import ratingImg from '../assets/rating.png'
+import ratingImg from '../assets/Rating.png'
 
 const ratings = [{
         name: 'Google',
