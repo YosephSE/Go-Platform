@@ -17,7 +17,7 @@
             <a href="#" class="hover-underline">Pricing</a>
             <a href="#" class="hover-underline">Resources</a>
         </nav>
-        <button class="hidden md:flex ml-auto md:ml-0 bg-sky-400 text-white px-6 py-2 rounded-lg">
+        <button class="hidden md:flex ml-auto md:ml-0 bg-sky-400 text-white px-6 py-2 rounded-lg cursor-pointer">
             Log in
         </button>
 
@@ -42,7 +42,7 @@
             <a href="#" class="block hover-underline">Product</a>
             <a href="#" class="block hover-underline">Pricing</a>
             <a href="#" class="block hover-underline">Resources</a>
-            <button class="bg-sky-400 text-white px-6 py-2 rounded-lg w-full">
+            <button class="bg-sky-400 text-white px-6 py-2 rounded-lg w-full cursor-pointer">
                 Log in
             </button>
         </div>
