@@ -36,6 +36,7 @@
             </div>
             <div class="mt-16 md:mt-8">
                 <img :src="heroImg" alt="Hero Image" class="w-170" />
+                <Ratings />
             </div>
         </section>
     </div>
@@ -45,5 +46,6 @@
 import heroImg from '../assets/hero.png'
 import NavBar from './NavBar.vue'
 import back from '../assets/i.png'
+import Ratings from './Ratings.vue'
 </script>
 <style scoped></style>
