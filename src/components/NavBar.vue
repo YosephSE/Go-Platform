@@ -2,17 +2,16 @@
     <header
         class="flex justify-between items-center py-4 px-[35px] md:px-[100px] bg-[#F8F8F8]/50 backdrop-blur-sm shadow-sm shadow-gray-300"
     >
-        <!-- Desktop logo -->
+
         <div class="hidden md:flex items-center space-x-2">
             <a href="/"><img :src="logo" alt="Logo" class="h-10" /></a>
         </div>
 
-        <!-- Mobile logo -->
+
         <div class="flex md:hidden items-center space-x-2">
             <a href="/"><img :src="smlogo" alt="Logo" class="h-10" /></a>
         </div>
 
-        <!-- Desktop links -->
         <nav class="hidden md:flex space-x-8 text-lg">
             <a href="#" class="hover-underline">Product</a>
             <a href="#" class="hover-underline">Pricing</a>
@@ -22,13 +21,11 @@
             Log in
         </button>
 
-        <!-- Mobile menu toggle -->
         <div class="md:hidden relative">
             <img :src="menu" alt="Menu" class="h-6" @click="showMenu = !showMenu" />
         </div>
     </header>
 
-    <!-- Animated full-screen mobile menu -->
     <transition name="slide-down">
         <div
             v-if="showMenu"
@@ -88,7 +85,6 @@ const showMenu = ref(false)
     transform: scaleX(1);
 }
 
-/* Transition for sliding down the full overlay */
 .slide-down-enter-active,
 .slide-down-leave-active {
     transition: transform 0.3s ease;
