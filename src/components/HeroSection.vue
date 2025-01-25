@@ -19,7 +19,7 @@
                 <p class="md:hidden text-md md:text-lg text-gray-700 mb-6">
                     and tracks skill progression
                 </p>
-                <div class="flex"><button class="bg-[#EC9B04] text-black px-6 py-3 rounded-sm hover:bg-yellow-600">
+                <div class="flex"><button class="bg-[#EC9B04] text-black px-6 py-3 rounded-sm hover:bg-yellow-600 cursor-pointer">
                         Start for free
                     </button>
                     <div class="hidden md:block md:ml-4 m-0">
