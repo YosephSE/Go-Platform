@@ -5,6 +5,7 @@ import Metrics from './components/Metrics.vue';
 import Partners from './components/Partners.vue'
 import Services from './components/services.vue';
 import Testimony from './components/Testimony.vue';
+import Footer from './components/Footer.vue';
 
 </script>
 
@@ -16,5 +17,6 @@ import Testimony from './components/Testimony.vue';
     <Metrics />
     <Services />
     <AboutUs />
+    <Footer />
   </div>
 </template>
