@@ -30,7 +30,7 @@ const companies = [
                     <img 
                         :src="company.img" 
                         :alt="company.name" 
-                        class="h-16 md:h-20 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                        class="h-16 md:h-20 w-auto object-contain"
                     />
                 </div>
             </div>
