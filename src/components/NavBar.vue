@@ -26,7 +26,7 @@
 
 
     <transition name="slide-down">
-        <div v-if="showMenu" class="fixed inset-0 bg-white z-50 flex flex-col p-4 space-y-4 text-lg">
+        <div v-if="showMenu" class="fixed inset-0 bg-[#fff] z-50 flex flex-col p-4 space-y-4 text-lg">
             <div class="flex justify-end">
                 <img :src="menu" alt="Close" class="h-6" @click="showMenu = false" />
             </div>
