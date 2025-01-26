@@ -1,5 +1,6 @@
 <script setup>
 import HeroSection from './components/HeroSection.vue'
+import Metrics from './components/Metrics.vue';
 import Partners from './components/Partners.vue'
 import Testimony from './components/Testimony.vue';
 
@@ -10,5 +11,6 @@ import Testimony from './components/Testimony.vue';
     <HeroSection />
     <Partners />
     <Testimony />
+    <Metrics />
   </div>
 </template>

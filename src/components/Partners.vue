@@ -15,16 +15,25 @@ const companies = [
     {name: 'Deloitte', img: deloitte},
 ]
 </script>
+
 <template>
     <section class="bg-[#F7F7F7] py-10 md:py-16">
-        <div class="flex justify-center items-center">
-            <h1 class="text-xl md:text-3xl text-center font-[poppins]">
-                Our assessment are inspired by the <br>following companies
-            </h1>
-        </div>
-        <div class="flex flex-wrap justify-center items-center mt-8">
-            <img v-for="company in companies" :src="company.img" :alt="company.name" class="h-20 mt-12 mx-10 md:mx-10" />
-
+        <div class="container mx-auto px-4">
+            <div class="flex justify-center items-center">
+                <h1 class="text-xl md:text-3xl text-center font-[poppins]">
+                    Our assessments are inspired by the <br>following companies
+                </h1>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 md:gap-12 justify-items-center mt-8">
+                <div v-for="company in companies" class="w-full flex justify-center items-center p-4">
+                    <img 
+                        :src="company.img" 
+                        :alt="company.name" 
+                        class="h-16 md:h-20 w-auto object-contain grayscale hover:grayscale-0 transition-all"
+                    />
+                </div>
+            </div>
         </div>
     </section>
 </template>
