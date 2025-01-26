@@ -43,7 +43,6 @@
 
 <script setup>
 import heroImg from '../assets/hero.png'
-import NavBar from './NavBar.vue'
 import back from '../assets/i.png'
 import Ratings from './Ratings.vue'
 </script>
@@ -51,7 +50,7 @@ import Ratings from './Ratings.vue'
 
 .text-box {
     margin-left: 44vw;
-   margin-top: 42vh;
+    margin-top: 42vh;
 }
 
 .btn:link,
