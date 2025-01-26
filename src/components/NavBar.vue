@@ -52,7 +52,7 @@
 <script setup>
 import { ref } from 'vue'
 import logo from '../assets/logo.svg'
-import smlogo from '../assets/smlogo.png'
+import smlogo from '../assets/image.png'
 import menu from '../assets/menu.png'
 
 const showMenu = ref(false)
