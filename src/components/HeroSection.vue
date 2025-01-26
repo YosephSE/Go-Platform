@@ -1,7 +1,6 @@
 <template>
     <div :style="{ backgroundImage: `url(${back})` }">
-        <NavBar />
-        <section class="relative flex flex-wrap md:flex-nowrap md:pl-[100px] items-center py-16 px-8">
+        <section class="relative flex flex-wrap md:flex-nowrap md:pl-[100px] items-center py-32 px-8">
             <div class="w-3/4 md:w-1/2">
 
                 <h1 class="text-4xl md:text-6xl font-bold justify-start font-[poppins]">
