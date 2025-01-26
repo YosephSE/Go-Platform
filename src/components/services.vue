@@ -1,7 +1,7 @@
 <template>
     <section class="bg-gray-300 min-h-screen flex items-center justify-center py-16">
         <div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12 md:mb-32">
                 How GO PLATFORM Can Help You?
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
@@ -19,7 +19,7 @@
                 </div>
             </div>
             <button
-                class="mt-12 bg-yellow-500 text-white font-semibold py-3 px-8 rounded-full shadow-lg
+                class="mt-12 md:mt-32 bg-yellow-500 text-white font-semibold py-4 px-8 rounded-full shadow-lg
                        hover:bg-yellow-600 hover:shadow-xl transition duration-300">
                 More about Go Platform
             </button>

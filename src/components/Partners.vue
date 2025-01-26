@@ -26,7 +26,7 @@ const companies = [
             </div>
             
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 md:gap-12 justify-items-center mt-8">
-                <div v-for="company in companies" class="w-full flex justify-center items-center p-4">
+                <div v-for="company in companies" class="w-full flex justify-center items-center p-4 hover:cursor-pointer">
                     <img 
                         :src="company.img" 
                         :alt="company.name" 

@@ -1,4 +1,5 @@
 <script setup>
+import AboutUs from './components/AboutUs.vue';
 import HeroSection from './components/HeroSection.vue'
 import Metrics from './components/Metrics.vue';
 import Partners from './components/Partners.vue'
@@ -14,5 +15,6 @@ import Testimony from './components/Testimony.vue';
     <Testimony />
     <Metrics />
     <Services />
+    <AboutUs />
   </div>
 </template>
