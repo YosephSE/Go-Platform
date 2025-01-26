@@ -2,6 +2,7 @@
 import HeroSection from './components/HeroSection.vue'
 import Metrics from './components/Metrics.vue';
 import Partners from './components/Partners.vue'
+import Services from './components/services.vue';
 import Testimony from './components/Testimony.vue';
 
 </script>
@@ -12,5 +13,6 @@ import Testimony from './components/Testimony.vue';
     <Partners />
     <Testimony />
     <Metrics />
+    <Services />
   </div>
 </template>
