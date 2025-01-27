@@ -1,15 +1,15 @@
 <template>
     <div :style="{ backgroundImage: `url(${back})` }">
-        <section class="relative flex flex-wrap md:flex-nowrap md:pl-[100px] items-center py-32 px-8">
+        <section class="relative flex flex-wrap md:flex-nowrap md:pl-[100px] items-center py-32 px-8 inika-bold">
             <div class="w-3/4 md:w-1/2">
 
-                <h1 class="text-4xl md:text-6xl font-bold justify-start font-[poppins]">
+                <h1 class="text-4xl md:text-6xl font-bold justify-start">
                     Discover the
                 </h1>
-                <h1 class="text-4xl md:text-6xl font-bold justify-start font-[poppins]">
+                <h1 class="text-4xl md:text-6xl font-bold justify-start">
                     potential
                 </h1>
-                <h1 class="text-4xl md:text-6xl font-bold mb-4 md:mb-12 justify-start font-[poppins]">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 md:mb-12 justify-start">
                     of every talent
                 </h1>
                 <p class="md:hidden text-md md:text-lg text-gray-700">
@@ -47,6 +47,19 @@ import back from '../assets/i.png'
 import Ratings from './Ratings.vue'
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.inika-regular {
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inika-bold {
+  font-family: "Inika", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .text-box {
     margin-left: 44vw;

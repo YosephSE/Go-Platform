@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gray-300 min-h-screen flex items-center justify-center py-16">
+    <section class="bg-gray-300 min-h-screen flex items-center justify-center py-16 inika-regular">
         <div class="max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12 md:mb-32">
                 How GO PLATFORM Can Help You?
@@ -58,3 +58,18 @@ const cards = [
 ]
 </script>
 
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.inika-regular {
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inika-bold {
+  font-family: "Inika", serif;
+  font-weight: 700;
+  font-style: normal;
+}</style>

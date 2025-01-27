@@ -17,10 +17,10 @@ const companies = [
 </script>
 
 <template>
-    <section class="bg-[#F7F7F7] py-10 md:py-16">
+    <section class="bg-sky-50 py-10 md:py-16 inika-regular">
         <div class="container mx-auto px-4">
             <div class="flex justify-center items-center">
-                <h1 class="text-xl md:text-3xl text-center font-[poppins]">
+                <h1 class="text-xl md:text-2xl text-center mb-3 md:mb-6">
                     Our assessments are inspired by the <br>following companies
                 </h1>
             </div>
@@ -37,3 +37,18 @@ const companies = [
         </div>
     </section>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.inika-regular {
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal ;
+}
+
+.inika-bold {
+  font-family: "Inika", serif;
+  font-weight: 700;
+  font-style: normal;
+}</style>
