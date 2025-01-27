@@ -52,7 +52,7 @@ const showPrev = () => {
             </button>
 
             <transition name="fade">
-                <div class="flex justify-center items-center w-full">
+                <div class="flex justify-center items-center w-full max-w-[365px] sm:max-w-[850px]">
                     <div v-if="testimonials[currentIndex]" :key="testimonials[currentIndex].id"
                         class="bg-white shadow-lg rounded-lg p-6 text-center max-w-md transition-all duration-500 min-h-[50vh] flex items-center justify-center">
                         <div>

@@ -39,7 +39,7 @@
 
 
             <div class="text-center text-white md:col-span-3 mt-6">
-                <p>&copy; 2023 GO Platform.&nbsp;&nbsp;All rights reserved.</p>
+                <p>&copy; {{year}} GO Platform.&nbsp;&nbsp;All rights reserved.</p>
             </div>
         </footer>
     </div>
@@ -47,4 +47,5 @@
 
 <script setup>
 import logo from '../assets/footer.png';
+const year = new Date().getFullYear();
 </script>
