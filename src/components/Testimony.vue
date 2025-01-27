@@ -55,7 +55,15 @@ const showPrev = () => {
                 <div class="flex justify-center items-center w-full">
                     <div v-if="testimonials[currentIndex]" :key="testimonials[currentIndex].id"
                         class="bg-white shadow-lg rounded-lg p-6 text-center max-w-md transition-all duration-500 min-h-[50vh] flex items-center justify-center">
-                       <div></div>
+                        <div>
+                            <div class="w-20 h-20 mx-auto rounded-full overflow-hidden border-2 border-gray-300">
+                                <img :src="testimonials[currentIndex].image" :alt="testimonials[currentIndex].name" />
+                            </div>
+                            <h3 class="mt-4 text-xl font-semibold">{{ testimonials[currentIndex].name }}</h3>
+                            <p class="mt-2 text-gray-600 px-8">
+                                "{{ testimonials[currentIndex].testimony }}"
+                            </p>
+                        </div>
                     </div>
                 </div>
             </transition>
